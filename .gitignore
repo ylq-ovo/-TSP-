@@ -1,0 +1,43 @@
+# ===== 构建产物 / 编译中间文件 =====
+build/
+x64/
+Debug/
+Release/
+# Visual Studio 的中间目录（与工程同名，注意结尾的斜杠只匹配目录）
+/旅行商问题的多种方式求解的对比/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.exp
+*.lib
+*.tlog
+*.log
+*.recipe
+*.lastbuildstate
+*.obj.dt.*
+
+# ===== IDE / 本机用户配置 =====
+.vs/
+*.user
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+.vscode/
+.idea/
+
+# ===== 本地生成物（Word 报告由 docs 下的 Markdown 派生，不入库） =====
+output/
+
+# ===== 工具会话的内部状态与记忆 =====
+.workbuddy/
+
+# ===== 系统 =====
+Thumbs.db
+desktop.ini
+.DS_Store
